@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:id="@+id/keygrid"
+        android:layout_alignParentBottom="true"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:layout_gravity="center"
+            android:layout_height="70dp">
+            <ImageButton
+                android:id="@+id/refresh"
+                android:src="@drawable/refresh"
+                android:onClick="refresh"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:background="@drawable/b_back"
+                android:layout_height="60dp" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_gravity="center"
+            android:layout_height="70dp">
+
+            <Button
+                android:id="@+id/b0"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp" />
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_gravity="center"
+            android:layout_column="2"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b3"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b4"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b5"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_gravity="center"
+            android:layout_column="0"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b6"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_gravity="center"
+            android:layout_column="1"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b7"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_gravity="center"
+            android:layout_column="2"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b8"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_gravity="center"
+            android:layout_column="0"
+            android:layout_height="70dp">
+            <ImageButton
+                android:id="@+id/b11"
+                android:layout_width="110dp"
+                android:tag="off"
+                android:onClick="accessible"
+                android:src="@drawable/not_accessible"
+                android:layout_gravity="center"
+                android:background="@drawable/b_back"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/b9"
+                android:layout_width="110dp"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/ash"
+                android:background="@drawable/b_back"
+                android:fontFamily="@font/poppins_medium"
+                android:textSize="23sp"
+                android:layout_height="60dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="130dp"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:layout_height="70dp">
+            <ImageButton
+                android:id="@+id/b10"
+                android:layout_width="110dp"
+                android:onClick="backspace"
+                android:src="@drawable/backspace"
+                android:layout_gravity="center"
+                android:background="@drawable/b_back"
+                android:layout_height="60dp" />
+        </FrameLayout>
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_light"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>
